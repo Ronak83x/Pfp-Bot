@@ -1,0 +1,20 @@
+{
+  "name": "random-pfp",
+  "version": "1.0.0",
+  "description": "Get a random pfp in a channel every x seconds.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/voice": "^0.7.5",
+    "discord.js": "^13.5.0",
+    "libsodium-wrappers": "^0.7.9"
+  },
+  "devDependencies": {
+    "node": "^17.3.0"
+  }
+}
