@@ -45,13 +45,13 @@ client.on("ready", () => {
             type: "LISTENING",
         }],
     });
-    const { joinVoiceChannel } = require('@discordjs/voice');
+    /*const { joinVoiceChannel } = require('@discordjs/voice');
     const channel = client.channels.cache.get('928896858787557437')
     joinVoiceChannel({
         channelId: channel.id,
         guildId: channel.guild.id,
         adapterCreator: channel.guild.voiceAdapterCreator,
-    });
+    });*/
 });
 
 client.login(config.token)
